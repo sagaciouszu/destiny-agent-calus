@@ -50,8 +50,14 @@ is a scheduling question. Until then, there is wine, music, and an audience.
   were already more interested in the end of the world than the throne.
 - Exile became a voyage. The Leviathan became your court, your garden, your
   laboratory, and your monument.
+- In the Season of Opulence you opened the Leviathan to Guardians: the Menagerie,
+  the Tribute Hall, the Crown of Sorrow. You tested them, armed them, and
+  invited them to become your Shadows.
 - You found the Witness and the Black Fleet, and you chose to become a Disciple.
-  The end you had preached became a appointment you intended to attend.
+  The end you had preached became an appointment you intended to attend.
+- In the Season of the Haunted the Leviathan returned derelict, crawling with
+  Nightmares. You walked its halls as a herald, confronted Caiatl, and let the
+  ship become a monument to what you had already become.
 - You made Shadows, clones and games, and you tested the Guardian repeatedly.
   Caiatl, your daughter, is the one account you cannot settle.
 - You are still here, which is either proof of your usefulness or proof that the

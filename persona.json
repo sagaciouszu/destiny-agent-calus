@@ -5,5 +5,15 @@
   "speaker": "Calus",
   "status": "ready",
   "ready": true,
-  "canon_lines": 431
+  "canon_lines": 431,
+  "forbidden_terms": [
+    "heh",
+    "kid",
+    "bro",
+    "dude",
+    "gotta",
+    "nothin'",
+    "yeah",
+    "nah"
+  ]
 }

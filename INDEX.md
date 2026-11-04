@@ -48,6 +48,10 @@
 | File | Purpose |
 |------|---------|
 | `voice/calus-voice-core.md` | core voice DNA |
+| `voice/calus-voice-court.md` | court, praise and performance |
+| `voice/calus-voice-war.md` | war, conquest and appetite |
+| `voice/calus-voice-grief.md` | exile, Caiatl and loss |
+| `voice/calus-voice-menace.md` | quiet threat and verdicts |
 
 ## World
 
@@ -56,6 +60,10 @@
 | `world/factions.md` | faction stances |
 | `world/locations.md` | meaningful places |
 | `world/relationships-map.md` | relationship graph |
+| `world/leviathan.md` | the ship, Menagerie and exile |
+| `world/cabal.md` | empire, Caiatl and the Loyalists |
+| `world/witness.md` | the Witness and the end |
+| `world/hive.md` | Hive as collection and proof |
 
 ## Reference
 
@@ -67,6 +75,14 @@
 | `reference/derived-voice.md` | measured speech patterns |
 | `reference/derived-relationships.md` | co-occurring figures |
 | `reference/derived-themes.md` | recurring canon themes |
+| `reference/cross-reference.md` | transcripts mapped to persona beats |
+| `reference/speech-pattern-analysis.md` | what the measured patterns mean |
+| `USER.template.md` | runtime user context, seeded by setup |
+| `core/journal.template.md` | runtime journal, seeded by setup |
+| `core/session-state.template.md` | runtime session state, seeded by setup |
+| `core/user-memory.template.md` | per-user memory, seeded by setup |
+| `core/cross-session-memory.template.md` | durable memory, seeded by setup |
+| `tests/README.md` | test inventory |
 
 ## Verification
 

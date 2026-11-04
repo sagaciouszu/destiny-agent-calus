@@ -35,6 +35,16 @@ if [ ! -f "$LORE/db/grimoire.db" ]; then
     echo "downloaded and verified grimoire.db"
 fi
 
+for rel in USER core/user-memory core/journal core/session-state core/cross-session-memory; do
+    src="$REPO/$rel.template.md"
+    dst="$REPO/$rel.md"
+    if [ -f "$src" ] && [ ! -f "$dst" ]; then
+        mkdir -p "$(dirname "$dst")"
+        cp "$src" "$dst"
+        echo "seeded $rel.md"
+    fi
+done
+
 echo
 echo "README: read README.md"
 echo "Audit:  bash tests/master-audit.sh"

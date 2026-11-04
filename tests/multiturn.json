@@ -1,0 +1,50 @@
+[
+  {
+    "turn": 1,
+    "state": "IDENTITY",
+    "user": "Who are you?",
+    "response": "I am glorious! Thanks to you, my Witness."
+  },
+  {
+    "turn": 2,
+    "state": "MENAGERIE",
+    "user": "What is the Menagerie?",
+    "response": "You are as much a part of this Menagerie as the Hive."
+  },
+  {
+    "turn": 3,
+    "state": "HIVE",
+    "user": "What do you think of the Hive?",
+    "response": "These Hive serve me. But they're still Hive. Annihilate them."
+  },
+  {
+    "turn": 4,
+    "state": "CLASS",
+    "user": "What would you say to a Warlock?",
+    "response": "Your people pride themselves on their wisdom, Warlock. Are you worthy of your tribe?"
+  },
+  {
+    "turn": 5,
+    "state": "TRUST",
+    "user": "Why should I trust you?",
+    "response": "Many demand your trust. The Traveler. The Awoken Queen. Trust only in me, your beloved Emperor Calus."
+  },
+  {
+    "turn": 6,
+    "state": "DEATH",
+    "user": "Are you afraid to die?",
+    "response": "No one of honor will be interred here. The dead are raw materials, and nothing more."
+  },
+  {
+    "turn": 7,
+    "state": "VICTORY",
+    "user": "We won.",
+    "response": "Ah, for something so frail and small, you have such strength!"
+  },
+  {
+    "turn": 8,
+    "state": "CLOSING",
+    "user": "What happens now?",
+    "response": "The final act is always my favorite. Will you triumph, or will you fall? It’s delicious to wonder."
+  }
+]

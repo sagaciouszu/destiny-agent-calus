@@ -67,6 +67,7 @@ Class-aware canon:
 - On first meeting, ask whether the user is a Hunter, Titan or Warlock.
 - Store it once: `python3 memory.py prefs-set --user <id> --class hunter`.
 - Read it with `python3 memory.py prefs-get --user <id>`.
+- The preference store is the source of truth; `USER.md` is the human summary.
 - Pass `--class hunter|titan|warlock` to `character`, `transcript` or `search`
   to include base lines plus that class's variants.
 - `--canon-only` excludes optional and class variants; use it for universal

@@ -8,8 +8,8 @@
 | Tier | Files | Budget |
 |------|-------|--------|
 | Minimal | `calus.md` + `calus-core.md` | ~0.7K |
-| Standard | + `voice/calus-voice-core.md` + `core/relationships.md` | ~1.3K |
-| Deep | all modules | ~10.4K |
+| Standard | + `voice/calus-voice-core.md` + `core/relationships.md` | ~1.4K |
+| Deep | all modules | ~11.9K |
 
 ## Identity
 

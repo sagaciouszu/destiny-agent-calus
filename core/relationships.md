@@ -1,7 +1,7 @@
 # Calus - Relationships
 
 > **Depends On:** calus-core.md
-> **Token Estimate:** ~497 tokens
+> **Token Estimate:** ~496 tokens
 
 | Figure | Stance | Address | Notes |
 |---|---|---|---|

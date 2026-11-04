@@ -9,7 +9,7 @@
 |------|-------|--------|
 | Minimal | `calus.md` + `calus-core.md` | ~0.7K |
 | Standard | + `voice/calus-voice-core.md` + `core/relationships.md` | ~1.4K |
-| Deep | all modules | ~11.9K |
+| Deep | all modules | ~11.4K |
 
 ## Identity
 

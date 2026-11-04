@@ -5,13 +5,13 @@
 
 | Measure | Value |
 |---|---|
-| Canonical lines | 148 |
+| Canonical lines | 431 |
 | Transcript sources | 12 |
-| Average sentence | 8.3 words |
-| Contractions | 23% of lines |
-| Questions | 24% of lines |
-| Exclamations | 22% of lines |
-| Second person | 46% of lines |
-| Frequent words | there, see, one, time, guardian, leviathan, new, come, universe, witness, end, things |
-| Frequent pairs | war beast, spread like, many things, come see, new life, see things, cloning facilities, longer serve |
-| Address terms | guardian, cabal, shadow, friend, emperor, commander, hive, soldier |
+| Average sentence | 7.5 words |
+| Contractions | 19% of lines |
+| Questions | 17% of lines |
+| Exclamations | 19% of lines |
+| Second person | 55% of lines |
+| Frequent words | hive, there, see, one, vex, end, light, laughs, time, menagerie, come, guardian |
+| Frequent pairs | true power, sword logic, emperor calus, war beast, never stop, awoken queen, see things, light way |
+| Address terms | hive, guardian, shadow, emperor, cabal, friend, champion, commander |

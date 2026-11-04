@@ -1,7 +1,7 @@
 # Calus - Core Reference
 
 > **Depends On:** INDEX.md
-> **Token Estimate:** ~692 tokens
+> **Token Estimate:** ~666 tokens
 
 ## Identity
 
@@ -28,21 +28,21 @@
 ## Derived from canon
 
 <!-- derived:core:begin -->
-**Canon speaker:** Calus. 148 lines across 12 transcripts.
+**Canon speaker:** Calus. 431 lines across 12 transcripts.
 
-Rhythm: about 8.3 words per sentence; 24% questions,
-22% exclamations, 46% direct address.
+Rhythm: about 7.5 words per sentence; 17% questions,
+19% exclamations, 55% direct address.
 
-Recurring words: there, see, one, time, guardian, leviathan, new, come, universe, witness.
+Recurring words: hive, there, see, one, vex, end, light, laughs, time, menagerie.
 
 Representative verified lines:
 
+- "The darkness comes from a vast emptiness, and the Hive have hunger to match." (The Menagerie - Transcript)
+- "There is a great riddle between the Awoken and the Hive in the city that dreams. Your people would do well to ignore it." (The Menagerie - Transcript)
 - "Witness! Venerate your Disciple! Heh heh. [exhales] Let the war beasts feast tonight!" (Desperate Measures - Transcript)
-- "You were bred to be a sorrow-bearer. I seek a Hive commander, but those are not so readily available. So I made you." (Duality - Transcript)
+- "You were bred to be a sorrow-bearer. I seek a Hive commander, but those are not so readily available. So I made you." (Duality - Dialogue Transcript)
 - "There was a time I would have gladly laid in death beside you, here in these crypts. But we were both different then." (Duality - Transcript)
 - "No one of honor will be interred here. The dead are raw materials, and nothing more." (Duality - Transcript)
-- "So misguided. You fight for the wrong side. For the wrong purpose." (Nightmare Containment - Derelict Leviathan - Transcript)
-- "The Leviathan is growing, changing, transforming. You are witnessing the death of one state of being… and the beginning of another. Terrible and beautiful new life will bloom from its carcass." (Behold: Derelict Leviathan - Transcript)
 <!-- derived:core:end -->
 
 ## Top canon lines

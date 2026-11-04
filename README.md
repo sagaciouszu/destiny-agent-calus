@@ -30,7 +30,8 @@ bash tests/master-audit.sh      # local suites + shared gates
 | Full agent audit | `bash tests/master-audit.sh` | all suites pass |
 | Module completeness | `bash tests/module-test.sh` | 0 failed |
 | Quote verification | `bash tests/quote-verify.sh` | 0 unverified |
-| Database integrity | `bash lore/tests/test-db.sh` | 38 checks |
+| Database integrity | `bash lore/tests/test-db.sh` | 50 checks |
+| Query interface | `bash lore/tests/query-interface-test.sh` | 69 checks |
 | File conformance | `python3 lore/tests/conformance.py` | PASS |
 
 ## Troubleshooting

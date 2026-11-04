@@ -5,7 +5,7 @@
 
 ## Query CLI
 
-- Query CLI: one of `python3 lore/db/query.py search|character|character-info|item|book|transcript|find-item|record|verify|verify-many|list|activity|event|lore|coverage|stats`; MCP tool names use underscores.
+- Query CLI: one of `python3 lore/db/query.py search|character|character-info|item|book|transcript|find-item|record|verify|verify-many|list|activity|event|lore|seal|seals|coverage|stats`; MCP tool names use underscores.
 - Search: `python3 lore/db/query.py search "<term>" --limit 10`
 - Character lines: `python3 lore/db/query.py character "Calus" --limit 20`
 - Quote check: `python3 lore/db/query.py verify "<line>" --speaker "Calus" --exact`

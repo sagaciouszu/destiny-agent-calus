@@ -22,6 +22,28 @@ Speaker lines: 431 across 12 transcripts.
 | Downfall - Transcript | 7 |
 | Presage (First Visit) - Transcript | 4 |
 
+## Activity coverage
+
+| Activity | Lines |
+|---|---|
+| menagerie | 232 |
+| derelict-leviathan | 50 |
+| duality | 49 |
+| leviathan | 27 |
+| nightmare-containment | 17 |
+| sever | 8 |
+| presage | 4 |
+| crown-of-sorrow | 2 |
+
+## Season coverage
+
+| Season | Lines |
+|---|---|
+| season-of-opulence | 261 |
+| season-of-the-haunted | 124 |
+| season-of-the-chosen | 4 |
+| season-1 | 1 |
+
 ## Lines
 
 - "The darkness comes from a vast emptiness, and the Hive have hunger to match." (The Menagerie - Transcript)

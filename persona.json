@@ -15,5 +15,30 @@
     "nothin'",
     "yeah",
     "nah"
-  ]
+  ],
+  "canon_variant_lines": 0,
+  "activities": {
+    "menagerie": 232,
+    "derelict-leviathan": 50,
+    "duality": 49,
+    "leviathan": 27,
+    "nightmare-containment": 17,
+    "sever": 8,
+    "presage": 4,
+    "crown-of-sorrow": 2
+  },
+  "seasons": {
+    "season-of-opulence": 261,
+    "season-of-the-haunted": 124,
+    "season-of-the-chosen": 4,
+    "season-1": 1
+  },
+  "source_tiers": {
+    "ishtar_main": 283,
+    "ishtar_web": 147,
+    "cutscene": 1
+  },
+  "grimoire_version": "1.2.0",
+  "manifest_version": "245114.26.10.13.2000-1-bnet.66137",
+  "sourced_at": "2026-11-04"
 }

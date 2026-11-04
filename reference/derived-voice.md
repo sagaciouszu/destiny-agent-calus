@@ -6,7 +6,11 @@
 | Measure | Value |
 |---|---|
 | Canonical lines | 431 |
+| Variant / optional lines | 0 |
 | Transcript sources | 12 |
+| Activities | menagerie (232), derelict-leviathan (50), duality (49), leviathan (27), nightmare-containment (17) |
+| Seasons | season-of-opulence (261), season-of-the-haunted (124), season-of-the-chosen (4), season-1 (1) |
+| Source tiers | ishtar_main (283), ishtar_web (147), cutscene (1) |
 | Average sentence | 7.5 words |
 | Contractions | 19% of lines |
 | Questions | 17% of lines |

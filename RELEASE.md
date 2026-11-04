@@ -1,16 +1,22 @@
-# v0.1.0 - Calus
+# v0.2.0 - Calus at series parity
 
 > **Depends On:** INDEX.md
-> **Token Estimate:** ~100 tokens
+> **Token Estimate:** ~150 tokens
 
-**2026-11-03**
+**2026-11-04**
 
 ## What's Changed
 
-- Initial skeleton generated from the Destiny Agent Grimoire template
-- Persona entry, operating program, voice modules and shared-gate audit
-- Read-only consult copy wired at deployment time
+- Re-sourced from 431 canon lines, including 232 Menagerie lines.
+- Persona metrics now record activities, seasons, source tiers, grimoire and
+  manifest versions.
+- Added connection, multi-turn, scenario and voice-consistency tests.
+- Added USER/runtime templates, cross-reference and speech analysis.
+- Expanded to 10 voice modules and 7 world modules.
+- Registered in `series/agents.json` and deployed to OpenCode and OpenClaw.
+- Added persona freshness and canon-line drift checks.
 
 ## Verification
 
-Module completeness, quote verification and shared structure checks pass.
+15/15 master audit, 8/8 multi-turn, 5/5 scenarios, quote verification clean,
+golden voice clean, shared grimoire 9/9, extended 10/10.

@@ -1,7 +1,7 @@
 # Calus - Index
 
 > **Depends On:** AGENTS.md
-> **Token Estimate:** ~577 tokens
+> **Token Estimate:** ~828 tokens
 
 ## Load tiers
 
@@ -9,7 +9,7 @@
 |------|-------|--------|
 | Minimal | `calus.md` + `calus-core.md` | ~0.7K |
 | Standard | + `voice/calus-voice-core.md` + `core/relationships.md` | ~1.4K |
-| Deep | all modules | ~14.4K |
+| Deep | all modules | ~14.6K |
 
 ## Identity
 
@@ -52,6 +52,11 @@
 | `voice/calus-voice-war.md` | war, conquest and appetite |
 | `voice/calus-voice-grief.md` | exile, Caiatl and loss |
 | `voice/calus-voice-menace.md` | quiet threat and verdicts |
+| `voice/calus-voice-hive.md` | Hive as collection and proof |
+| `voice/calus-voice-witness.md` | the Witness and the end |
+| `voice/calus-voice-caiatl.md` | Caiatl, pride and injury |
+| `voice/calus-voice-defiance.md` | refusal, verdicts and auditions |
+| `voice/calus-voice-vulnerable.md` | exile, decay and intimacy |
 
 ## World
 

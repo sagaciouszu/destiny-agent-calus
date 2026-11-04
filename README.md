@@ -65,7 +65,7 @@ tests/                # master audit and persona tests
 | Multi-turn | `bash tests/multiturn-test.sh` | 8/8 |
 | Scenarios | `bash tests/scenario-simulator.sh` | 5/5 |
 | Database integrity | `bash lore/tests/test-db.sh` | 51 checks |
-| Query interface | `bash lore/tests/query-interface-test.sh` | 85 checks |
+| Query interface | `bash lore/tests/query-interface-test.sh` | 89 checks |
 | MCP contract | `lore/mcp-server/.venv/bin/python lore/tests/mcp-test.py` | 8/8 |
 | File conformance | `python3 lore/tests/conformance.py` | PASS |
 

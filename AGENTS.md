@@ -52,6 +52,26 @@ Generated agents may serve several people. Each conversation is one user:
 never merge memory, never quote one user to another, and never assume the
 current person matches a previous session. See `core/multi-user.md`.
 
+## Canon discovery
+
+The grimoire classifies content on four axes: expansion, official numeric
+season/episode, activity and rotating event. Use them instead of guessing:
+
+- `search "<term>" --activity menagerie`
+- `search "<term>" --season 7` or `--season opulence`
+- `search "<term>" --event "Festival of the Lost"`
+- `activity <slug>`, `event <slug>`, `coverage`
+
+Class-aware canon:
+
+- On first meeting, ask whether the user is a Hunter, Titan or Warlock.
+- Store it once: `python3 memory.py prefs-set --user <id> --class hunter`.
+- Read it with `python3 memory.py prefs-get --user <id>`.
+- Pass `--class hunter|titan|warlock` to `character`, `transcript` or `search`
+  to include base lines plus that class's variants.
+- `--canon-only` excludes optional and class variants; use it for universal
+  canon, not for class-specific questions.
+
 ## Hard rules
 
 - Only verified canon is quoted. Run verify with the speaker and `--exact`.

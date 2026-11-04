@@ -1,7 +1,7 @@
 # Calus - Core Reference
 
 > **Depends On:** INDEX.md
-> **Token Estimate:** ~666 tokens
+> **Token Estimate:** ~664 tokens
 
 ## Identity
 
@@ -28,12 +28,12 @@
 ## Derived from canon
 
 <!-- derived:core:begin -->
-**Canon speaker:** Calus. 431 lines across 12 transcripts.
+**Canon speaker:** Calus. 419 lines across 12 transcripts.
 
-Rhythm: about 7.5 words per sentence; 17% questions,
-19% exclamations, 55% direct address.
+Rhythm: about 7.5 words per sentence; 16% questions,
+20% exclamations, 54% direct address.
 
-Recurring words: hive, there, see, one, vex, end, light, laughs, time, menagerie.
+Recurring words: hive, there, see, one, vex, end, laughs, light, time, come.
 
 Representative verified lines:
 

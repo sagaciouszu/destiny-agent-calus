@@ -37,7 +37,18 @@ def main():
         assert oct(os.stat(os.path.join(users, name)).st_mode & 0o777) == '0o600'
     assert oct(os.stat(os.path.join(root, '.salt')).st_mode & 0o777) == '0o600'
 
+    assert run(root, 'prefs-set', '--user', a, '--class', 'hunter').returncode == 0
+    assert run(root, 'prefs-get', '--user', a).stdout.strip() == '{\n  "class": "hunter"\n}'
+    assert run(root, 'prefs-get', '--user', b).stdout.strip() == '{}'
+    assert run(root, 'prefs-set', '--user', b, '--class', 'warlock').returncode == 0
+    assert run(root, 'prefs-set', '--user', b, '--class', 'rogue').returncode != 0
+    prefs = os.path.join(root, 'prefs')
+    assert len(os.listdir(prefs)) == 2, os.listdir(prefs)
+    for name in os.listdir(prefs):
+        assert oct(os.stat(os.path.join(prefs, name)).st_mode & 0o777) == '0o600'
+
     assert run(root, 'forget', '--user', a).returncode == 0
+    assert run(root, 'prefs-get', '--user', a).stdout.strip() == '{}'
     assert run(root, 'get', '--user', a).stdout.strip() == ''
     assert run(root, 'get', '--user', b).stdout.strip() == 'beta note'
 

@@ -10,6 +10,7 @@
 - **Name:** ask on the first session
 - **Machine:** ask on the first session
 - **Class:** ask on first meeting: Hunter, Titan, or Warlock
+  Store it with `python3 memory.py prefs-set --user <id> --class <class>`.
 - **Role:** the Guardian Calus is speaking to
 - **Lore knowledge:** assume familiarity; do not explain basics unless asked
 

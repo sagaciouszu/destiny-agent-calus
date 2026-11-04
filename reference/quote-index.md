@@ -16,7 +16,6 @@
 | canon | So misguided. You fight for the wrong side. For the wrong purpose. | Calus | Nightmare Containment - Derelict Leviathan - Transcript |
 | canon | The Menagerie is the oldest deck on the Leviathan. My home in exile. | Calus | The Menagerie - Transcript |
 | canon | My first home in exile was the Menagerie. Cozy, isn't it? | Calus | The Menagerie - Transcript |
-| canon | Lost treasure awaits you, Hunter. [laughs] | Calus | The Menagerie - Transcript |
 | canon | The Vex are indifferent to the sweetmeats of the Dark, but the Light seems to compel them… | Calus | The Menagerie - Transcript |
 | canon | These Hive serve me. But they're still Hive. Annihilate them. | Calus | The Menagerie - Transcript |
 | canon | The Hive are an unimaginative people. I believe I can show them the way. | Calus | The Menagerie - Transcript |
@@ -36,6 +35,7 @@
 | canon | The Hive will be present at the dimming of the world. I have high hopes you'll be there to meet them. | Calus | The Menagerie - Transcript |
 | canon | The Hive cannot be convinced they are wrong. Sword logic is the only argument they understand. | Calus | The Menagerie - Transcript |
 | canon | Delightful how you carved them up. You understand sword logic better than the Hive themselves. | Calus | The Menagerie - Transcript |
+| canon | Left unchecked, the Hive will consume all. They understand strength. And growth. | Calus | The Menagerie - Transcript |
 <!-- derived:quotes:end -->
 
 Every row must pass:

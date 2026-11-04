@@ -12,7 +12,7 @@
 | never stop | 5 | The Vex understand nothing but their core algorithms. They will never stop until their directives ar |
 | awoken queen | 5 | Many demand your trust. The Traveler. The Awoken Queen. Trust only in me, your beloved Emperor Calus |
 | see things | 5 | The Witness's voice is so strong now. I hear it clearer than my own. I understand now what true para |
-| light way | 4 | Light the way, Hunter. |
 | good good | 4 | Good. Very good. |
 | let see | 4 | Let us see how you fare in this trial. |
+| end comes | 4 | When the end comes, the Vex will die like everything else. But until then, they have you to help wit |
 

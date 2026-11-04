@@ -5,7 +5,7 @@
   "speaker": "Calus",
   "status": "ready",
   "ready": true,
-  "canon_lines": 431,
+  "canon_lines": 419,
   "forbidden_terms": [
     "heh",
     "kid",
@@ -16,9 +16,9 @@
     "yeah",
     "nah"
   ],
-  "canon_variant_lines": 0,
+  "canon_variant_lines": 12,
   "activities": {
-    "menagerie": 232,
+    "menagerie": 220,
     "derelict-leviathan": 50,
     "duality": 49,
     "leviathan": 27,
@@ -28,17 +28,17 @@
     "crown-of-sorrow": 2
   },
   "seasons": {
-    "season-of-opulence": 261,
+    "season-of-opulence": 249,
     "season-of-the-haunted": 124,
     "season-of-the-chosen": 4,
     "season-1": 1
   },
   "source_tiers": {
-    "ishtar_main": 283,
+    "ishtar_main": 271,
     "ishtar_web": 147,
     "cutscene": 1
   },
-  "grimoire_version": "1.2.0",
+  "grimoire_version": "1.3.0",
   "manifest_version": "245114.26.10.13.2000-1-bnet.66137",
   "sourced_at": "2026-11-04"
 }

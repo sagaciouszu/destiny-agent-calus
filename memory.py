@@ -5,6 +5,8 @@ Usage:
     python3 memory.py get    --user <platform-id>
     python3 memory.py set    --user <platform-id> [--text "..."]   # or stdin
     python3 memory.py forget --user <platform-id>
+    python3 memory.py prefs-get  --user <platform-id>
+    python3 memory.py prefs-set  --user <platform-id> --class hunter|titan|warlock
 
 The platform id is hashed with a local salt; the raw id is never used as a
 filename. There is deliberately no list command and no free path argument.
@@ -12,6 +14,7 @@ filename. There is deliberately no list command and no free path argument.
 import argparse
 import fcntl
 import hashlib
+import json
 import os
 import secrets
 import sys
@@ -20,6 +23,7 @@ import tempfile
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.environ.get('MEMORY_ROOT') or os.path.join(HERE, 'memory'))
 USERS = os.path.join(ROOT, 'users')
+PREFS = os.path.join(ROOT, 'prefs')
 SALT = os.path.join(ROOT, '.salt')
 MAX_BYTES = 8192
 
@@ -29,6 +33,7 @@ def bootstrap():
     os.makedirs(ROOT, mode=0o700, exist_ok=True)
     os.chmod(ROOT, 0o700)
     os.makedirs(USERS, mode=0o700, exist_ok=True)
+    os.makedirs(PREFS, mode=0o700, exist_ok=True)
     lock_path = os.path.join(ROOT, '.lock')
     handle = open(lock_path, 'a+')
     os.chmod(lock_path, 0o600)
@@ -62,6 +67,33 @@ def read(handle, user):
         return f.read(MAX_BYTES + 1)
 
 
+def prefs_path(user):
+    return os.path.join(PREFS, key(user) + '.json')
+
+
+def prefs_read(user):
+    path = prefs_path(user)
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding='utf-8') as f:
+        return json.load(f)
+
+
+def prefs_write(user, updates):
+    current = prefs_read(user)
+    current.update(updates)
+    fd, tmp = tempfile.mkstemp(dir=PREFS)
+    try:
+        with os.fdopen(fd, 'w', encoding='utf-8') as f:
+            json.dump(current, f, indent=2, sort_keys=True)
+            f.write('\n')
+        os.chmod(tmp, 0o600)
+        os.replace(tmp, prefs_path(user))
+    finally:
+        if os.path.exists(tmp):
+            os.remove(tmp)
+
+
 def write(handle, user, text):
     text = text.replace('\x00', '').strip()
     if len(text.encode('utf-8')) > MAX_BYTES:
@@ -79,16 +111,17 @@ def write(handle, user, text):
 
 
 def forget(handle, user):
-    path = path_for(user)
-    if os.path.exists(path):
-        os.remove(path)
+    for path in (path_for(user), prefs_path(user)):
+        if os.path.exists(path):
+            os.remove(path)
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('action', choices=['get', 'set', 'forget'])
+    parser.add_argument('action', choices=['get', 'set', 'forget', 'prefs-get', 'prefs-set'])
     parser.add_argument('--user', required=True)
     parser.add_argument('--text')
+    parser.add_argument('--class', dest='player_class', choices=['hunter', 'titan', 'warlock'])
     args = parser.parse_args()
     handle = bootstrap()
     try:
@@ -96,8 +129,15 @@ def main():
             sys.stdout.write(read(handle, args.user))
         elif args.action == 'set':
             write(handle, args.user, args.text if args.text is not None else sys.stdin.read())
-        else:
+        elif args.action == 'forget':
             forget(handle, args.user)
+        elif args.action == 'prefs-get':
+            json.dump(prefs_read(args.user), sys.stdout, indent=2, sort_keys=True)
+            sys.stdout.write('\n')
+        else:
+            if not args.player_class:
+                raise SystemExit('prefs-set requires --class hunter|titan|warlock')
+            prefs_write(args.user, {'class': args.player_class})
     finally:
         fcntl.flock(handle, fcntl.LOCK_UN)
         handle.close()

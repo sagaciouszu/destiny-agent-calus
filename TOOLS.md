@@ -11,6 +11,8 @@
 - Quote check: `python3 lore/db/query.py verify "<line>" --speaker "Calus" --exact`
 - Stats: `python3 lore/db/query.py stats`
 - Lore entry: `python3 lore/db/query.py lore "<title or hash>"`
+- Class variants: `character "Calus" --class hunter`; store the user's class
+  with `python3 memory.py prefs-set --user <id> --class hunter`
 - Canon-only lines: add `--canon-only` to `character` or `transcript`
 - Section filter: `transcript <ref> --section "<location>"`
 - Source tiers: validated/published/proofed Ishtar > untagged Ishtar > Destinypedia > captions

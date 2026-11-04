@@ -1,7 +1,7 @@
 # Calus - Index
 
 > **Depends On:** AGENTS.md
-> **Token Estimate:** ~828 tokens
+> **Token Estimate:** ~908 tokens
 
 ## Load tiers
 
@@ -9,7 +9,7 @@
 |------|-------|--------|
 | Minimal | `calus.md` + `calus-core.md` | ~0.7K |
 | Standard | + `voice/calus-voice-core.md` + `core/relationships.md` | ~1.4K |
-| Deep | all modules | ~14.6K |
+| Deep | all modules | ~16.3K |
 
 ## Identity
 

@@ -3,13 +3,13 @@
 > **Depends On:** derived-themes.md
 > **Token Estimate:** ~0.8K tokens
 
-Speaker lines: 431 across 12 transcripts.
+Speaker lines: 419 across 12 transcripts.
 
 ## Sources
 
 | Transcript | Lines |
 |---|---|
-| The Menagerie - Transcript | 232 |
+| The Menagerie - Transcript | 220 |
 | Behold: Derelict Leviathan - Transcript | 31 |
 | Leviathan - Dialogue Transcript | 27 |
 | Duality - Transcript | 25 |
@@ -26,7 +26,7 @@ Speaker lines: 431 across 12 transcripts.
 
 | Activity | Lines |
 |---|---|
-| menagerie | 232 |
+| menagerie | 220 |
 | derelict-leviathan | 50 |
 | duality | 49 |
 | leviathan | 27 |
@@ -39,7 +39,7 @@ Speaker lines: 431 across 12 transcripts.
 
 | Season | Lines |
 |---|---|
-| season-of-opulence | 261 |
+| season-of-opulence | 249 |
 | season-of-the-haunted | 124 |
 | season-of-the-chosen | 4 |
 | season-1 | 1 |
@@ -56,7 +56,6 @@ Speaker lines: 431 across 12 transcripts.
 - "So misguided. You fight for the wrong side. For the wrong purpose." (Nightmare Containment - Derelict Leviathan - Transcript)
 - "The Menagerie is the oldest deck on the Leviathan. My home in exile." (The Menagerie - Transcript)
 - "My first home in exile was the Menagerie. Cozy, isn't it?" (The Menagerie - Transcript)
-- "Lost treasure awaits you, Hunter. [laughs]" (The Menagerie - Transcript)
 - "The Vex are indifferent to the sweetmeats of the Dark, but the Light seems to compel them…" (The Menagerie - Transcript)
 - "These Hive serve me. But they're still Hive. Annihilate them." (The Menagerie - Transcript)
 - "The Hive are an unimaginative people. I believe I can show them the way." (The Menagerie - Transcript)
@@ -76,3 +75,4 @@ Speaker lines: 431 across 12 transcripts.
 - "The Hive will be present at the dimming of the world. I have high hopes you'll be there to meet them." (The Menagerie - Transcript)
 - "The Hive cannot be convinced they are wrong. Sword logic is the only argument they understand." (The Menagerie - Transcript)
 - "Delightful how you carved them up. You understand sword logic better than the Hive themselves." (The Menagerie - Transcript)
+- "Left unchecked, the Hive will consume all. They understand strength. And growth." (The Menagerie - Transcript)

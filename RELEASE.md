@@ -1,22 +1,18 @@
-# v0.2.0 - Calus at series parity
+# v0.1.0 - Calus
 
 > **Depends On:** INDEX.md
-> **Token Estimate:** ~150 tokens
+> **Token Estimate:** ~0.2K tokens
 
 **2026-11-04**
 
 ## What's Changed
 
-- Re-sourced from 431 canon lines, including 232 Menagerie lines.
-- Persona metrics now record activities, seasons, source tiers, grimoire and
-  manifest versions.
-- Added connection, multi-turn, scenario and voice-consistency tests.
-- Added USER/runtime templates, cross-reference and speech analysis.
-- Expanded to 10 voice modules and 7 world modules.
-- Registered in `series/agents.json` and deployed to OpenCode and OpenClaw.
-- Added persona freshness and canon-line drift checks.
+- Calus re-sourced at 419 base lines plus 12 class variants.
+- Class-tagged Menagerie callouts; `--class` selects the permutation.
+- Ten voice modules and seven world modules.
+- Structured user preferences and multi-user isolation.
+- Connection, multi-turn, scenario, golden-voice and freshness gates.
 
 ## Verification
 
-15/15 master audit, 8/8 multi-turn, 5/5 scenarios, quote verification clean,
-golden voice clean, shared grimoire 9/9, extended 10/10.
+15/15 master audit, quote verification clean, parity 60/60.

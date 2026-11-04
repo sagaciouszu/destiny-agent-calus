@@ -3,7 +3,7 @@
 > **Depends On:** AGENTS.md
 > **Token Estimate:** ~0.5K tokens
 
-**Version:** 0.2.0 | **Last updated:** 2026-11-04 | **Status:** Ready
+**Version:** 0.1.0 | **Last updated:** 2026-11-04 | **Status:** Ready
 
 Calus is an independent Destiny character agent built on the shared Destiny
 Agent Grimoire: one canonical SQLite archive, one verified quote policy, many

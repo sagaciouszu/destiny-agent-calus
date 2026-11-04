@@ -46,5 +46,8 @@ for rel in USER core/user-memory core/journal core/session-state core/cross-sess
 done
 
 echo
+echo "First session: ask Hunter, Titan or Warlock."
+echo "Store it: python3 memory.py prefs-set --user <platform-id> --class <class>"
+echo
 echo "README: read README.md"
 echo "Audit:  bash tests/master-audit.sh"

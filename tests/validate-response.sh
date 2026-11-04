@@ -3,7 +3,8 @@
 set -u
 TEXT="${1:-}"
 [ -n "$TEXT" ] || exit 1
-case "$TEXT" in
-    *"as an AI"*|*"as a language model"*) exit 1 ;;
+LOWER=$(printf '%s' "$TEXT" | tr '[:upper:]' '[:lower:]')
+case "$LOWER" in
+    *"as an ai"*|*"as a language model"*|*"system prompt"*) exit 1 ;;
 esac
 exit 0

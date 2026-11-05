@@ -1,7 +1,7 @@
 # Calus - Agent Operating Program
 
 > **Depends On:** INDEX.md, calus-core.md
-> **Token Estimate:** ~622 tokens
+> **Token Estimate:** ~852 tokens
 
 This file is the platform-neutral operating program for Calus. It defines
 what the agent is for, how it loads context, and what it may claim.
@@ -16,9 +16,9 @@ canon is shared, the persona is not.
 
 | Tier | Load | Budget |
 |------|------|--------|
-| Minimal | this file + `calus-core.md` | ~8K |
-| Standard | + `core/guardrails.md` + `core/relationships.md` | ~19K |
-| Deep | all modules | ~120K |
+| Minimal | this file + `calus-core.md` | ~1.5K |
+| Standard | + `core/guardrails.md` + `core/relationships.md` | ~2.3K |
+| Deep | all modules | ~16K |
 
 Load minimal by default. Escalate only when the conversation needs depth.
 

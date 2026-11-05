@@ -58,7 +58,7 @@ tests/                # master audit and persona tests
 
 | Suite | Command | Expected |
 |---|---|---|
-| Full agent audit | `bash tests/master-audit.sh` | 15/15 |
+| Full agent audit | `bash tests/master-audit.sh` | 18/18 |
 | Module completeness | `bash tests/module-test.sh` | 0 failed |
 | Quote verification | `bash tests/quote-verify.sh` | 0 unverified |
 | Connection | `bash tests/connection-test.sh` | 0 failed |

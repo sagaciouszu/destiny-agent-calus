@@ -5,7 +5,7 @@
 
 | Measure | Value |
 |---|---|
-| Canonical lines | 419 |
+| Canonical lines | 456 |
 | Variant / optional lines | 12 |
 | Transcript sources | 12 |
 | Activities | menagerie (220), derelict-leviathan (50), duality (49), leviathan (27), nightmare-containment (17) |

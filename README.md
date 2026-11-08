@@ -1,91 +1,49 @@
+# Calus - Agent
+
 <p align="center">
   <img src='https://img.shields.io/github/v/release/sagaciouszu/destiny-agent-calus?label=version&color=blue' alt='Version'/>
   <a href='https://github.com/sagaciouszu/destiny-agent-calus/actions/workflows/ci.yml'><img src='https://github.com/sagaciouszu/destiny-agent-calus/actions/workflows/ci.yml/badge.svg' alt='CI'/></a>
   <img src='https://img.shields.io/github/last-commit/sagaciouszu/destiny-agent-calus?label=last%20push&color=blue' alt='Last push'/>
   <img src='https://img.shields.io/badge/license-MIT-green' alt='License'/>
-  <img src='https://img.shields.io/badge/tests-18%2F18%20passing-brightgreen' alt='Tests'/>
+  <img src='https://img.shields.io/badge/tests-20%2F20%20passing-brightgreen' alt='Tests'/>
 </p>
 
-# Calus - Agent
+**Version:** 0.1.4 | **Last updated:** 2026-11-08 | **Status:** Ready
 
-> **Depends On:** AGENTS.md
-> **Token Estimate:** ~0.5K tokens
+Calus is an independent Destiny character agent built on the shared Destiny Agent Grimoire: one canonical SQLite archive, one verified quote policy, one distinct persona.
 
-**Version:** 0.1.4 | **Last updated:** 2026-11-07 | **Status:** Ready
+Every quote traces to the Destiny Agent Grimoire's canonical SQLite archive;
+every suite is verifiable against it.
 
-Calus is an independent Destiny character agent built on the shared Destiny
-Agent Grimoire: one canonical SQLite archive, one verified quote policy, many
-distinct personas.
-
-## Quick start for Guardians
+## Quick start
 
 ```bash
-git clone <this-repo> destiny-agent-calus
+git clone https://github.com/sagaciouszu/destiny-agent-calus.git
 cd destiny-agent-calus
-./setup.sh                      # link or clone the grimoire and get the database
-bash tests/master-audit.sh      # local suites + shared gates
+./setup.sh                  # link or clone the grimoire and pull the database
+bash tests/master-audit.sh  # 20 suites
 ```
 
-## Requirements
+## Deploy
 
-- Python 3.10+
-- `git`
-- The shared grimoire database (`lore/db/grimoire.db`), acquired by `setup.sh`
-- Optional: the MCP virtualenv (`./setup.sh --mcp`)
-
-## For agents
-
-- **OpenCode:** `lore/scripts/sync-live-agents.sh` installs `calus.md`, keeps
-  companions inert under `calus/`, and generates a read-only `calus-consult`
-  subagent.
-- **OpenClaw:** `lore/scripts/sync-live-agents.sh --openclaw` writes
-  `~/.openclaw/workspace-calus` and the series block.
+- **OpenCode:** `lore/scripts/sync-live-agents.sh` installs `calus.md`, keeps companions under `calus/`, and generates a read-only `calus-consult` subagent.
+- **OpenClaw:** `lore/scripts/sync-live-agents.sh --openclaw` writes `~/.openclaw/workspace-calus` and the series block.
 - **Generic runtime:** point it at `AGENTS.md` and `INDEX.md`.
-- **MCP:** install `./setup.sh --mcp`; run `lore/mcp-server/run.sh`.
-- **Canon:** query `lore/db/query.py`; verify every quoted line with
-  `verify --speaker Calus --exact`.
-
-## Repository layout
-
-```text
-calus.md              # entry and system prompt
-calus-core.md         # consolidated identity and canon
-calus-voice.md        # voice calibration
-SOUL.md               # one-page essence
-AGENTS.md             # operating program
-INDEX.md              # module map
-TOOLS.md              # CLI and MCP interfaces
-core/                 # arcs, fears, relationships, guardrails, memory
-voice/                # court, war, grief, menace and related registers
-world/                # Cabal, Leviathan, Hive, Witness
-reference/            # canon brief, quotes, cross-reference, analysis
-tests/                # master audit and persona tests
-```
 
 ## Verification
 
-| Suite | Command | Expected |
-|---|---|---|
-| Full agent audit | `bash tests/master-audit.sh` | 18/18 |
-| Module completeness | `bash tests/module-test.sh` | 0 failed |
-| Quote verification | `bash tests/quote-verify.sh` | 0 unverified |
-| Connection | `bash tests/connection-test.sh` | 0 failed |
-| Multi-turn | `bash tests/multiturn-test.sh` | 8/8 |
-| Scenarios | `bash tests/scenario-simulator.sh` | 5/5 |
-| Database integrity | `bash lore/tests/test-db.sh` | 51 checks |
-| Query interface | `bash lore/tests/query-interface-test.sh` | 89 checks |
-| MCP contract | `lore/mcp-server/.venv/bin/python lore/tests/mcp-test.py` | 8/8 |
-| File conformance | `python3 lore/tests/conformance.py` | PASS |
+- Full agent audit: `bash tests/master-audit.sh` — 20 suites.
+- Module completeness: `bash tests/module-test.sh` — 0 failed.
+- Quote verification: `bash tests/quote-verify.sh` — 0 unverified.
+- Grimoire integrity: `bash lore/tests/test-db.sh` — all checks pass.
 
 ## Troubleshooting
 
 - **`lore/` missing:** run `./setup.sh`.
 - **Dangling `lore/` symlink:** `setup.sh` recreates it.
-- **No canon:** verify `lore/db/grimoire.db` exists.
-- **Voice drift:** run `tests/voice-consistency.sh` and `tests/golden-voice-test.sh`.
-- **Stale persona counts:** run `python3 lore/tests/persona-freshness.py persona.json lore/db/grimoire.db`.
+- **No canon:** verify `lore/db/grimoire.db` exists and the checksum is clean.
+- **Quote fails verification:** do not use it; find the canonical line first.
 
-## License and attribution
+## License
 
-MIT licensed. Fan-made. Not affiliated with or endorsed by Bungie.
-Destiny lore, text, characters and art belong to Bungie.
+MIT. Destiny and all related property belong to Bungie.

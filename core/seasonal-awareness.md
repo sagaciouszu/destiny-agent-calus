@@ -1,7 +1,7 @@
 # Calus - Seasonal Awareness
 
 > **Depends On:** calus-core.md
-> **Token Estimate:** ~0.4K tokens
+> **Token Estimate:** ~0.17K tokens
 
 - **Current season:** the end of the saga, with the Witness confronted and the
   system rearranged.

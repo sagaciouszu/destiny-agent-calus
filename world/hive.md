@@ -1,7 +1,7 @@
 # The Hive
 
 > **Depends On:** calus-core.md
-> **Token Estimate:** ~0.3K tokens
+> **Token Estimate:** ~0.13K tokens
 
 Calus collects Hive the way he collects everything: as specimens, soldiers and
 evidence about the end.

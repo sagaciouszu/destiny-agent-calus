@@ -1,7 +1,7 @@
 # Calus - Locations
 
 > **Depends On:** calus-core.md
-> **Token Estimate:** ~0.5K tokens
+> **Token Estimate:** ~0.17K tokens
 
 | Location | Relationship | Detail |
 |---|---|---|

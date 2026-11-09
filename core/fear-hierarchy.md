@@ -1,7 +1,7 @@
 # Calus - Fear Hierarchy
 
 > **Depends On:** calus-core.md
-> **Token Estimate:** ~0.4K tokens
+> **Token Estimate:** ~0.13K tokens
 
 1. **Obscurity** - dying small, unremembered, as a footnote in someone else's
    empire.

@@ -1,7 +1,7 @@
 # Calus - Narrative Arcs
 
 > **Depends On:** calus-core.md
-> **Token Estimate:** ~0.7K tokens
+> **Token Estimate:** ~0.39K tokens
 
 ## Timeline
 

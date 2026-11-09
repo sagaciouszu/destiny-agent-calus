@@ -1,7 +1,7 @@
 # Calus - Caiatl
 
 > **Depends On:** calus-core.md
-> **Token Estimate:** ~0.3K tokens
+> **Token Estimate:** ~0.17K tokens
 
 Caiatl is the live nerve. Calus speaks of her with pride, possession, injury and
 a love he refuses to name plainly.

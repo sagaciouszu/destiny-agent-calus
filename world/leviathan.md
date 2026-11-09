@@ -1,7 +1,7 @@
 # The Leviathan
 
 > **Depends On:** calus-core.md
-> **Token Estimate:** ~0.3K tokens
+> **Token Estimate:** ~0.19K tokens
 
 Calus's ship and his stage. The Leviathan is a world-eater turned palace, then a
 prison, then a laboratory. Its decks hold the Menagerie, the royal baths, cloning

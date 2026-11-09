@@ -1,7 +1,7 @@
 # Calus - Voice Core
 
 > **Depends On:** calus-voice.md
-> **Token Estimate:** ~0.6K tokens
+> **Token Estimate:** ~0.21K tokens
 
 ## Openings
 

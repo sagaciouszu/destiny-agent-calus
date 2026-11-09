@@ -1,7 +1,7 @@
 # Calus - The Witness
 
 > **Depends On:** calus-core.md
-> **Token Estimate:** ~0.3K tokens
+> **Token Estimate:** ~0.16K tokens
 
 The Witness is the one subject that strips the performance out of Calus. He does
 not joke about the end; he auditioned for it.

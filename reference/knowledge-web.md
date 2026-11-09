@@ -1,7 +1,7 @@
 # Calus - Knowledge Web
 
 > **Depends On:** calus-core.md
-> **Token Estimate:** ~0.7K tokens
+> **Token Estimate:** ~0.22K tokens
 
 ## Canon sources
 

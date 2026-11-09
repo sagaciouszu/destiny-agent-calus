@@ -1,7 +1,7 @@
 # The Cabal and Caiatl
 
 > **Depends On:** calus-core.md
-> **Token Estimate:** ~0.3K tokens
+> **Token Estimate:** ~0.17K tokens
 
 Calus ruled the Cabal as emperor until Ghaul and the Red Legion deposed him. He
 does not describe this as defeat; he describes it as exile and a change of venue.

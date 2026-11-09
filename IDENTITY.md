@@ -1,7 +1,7 @@
 # Calus
 
 > **Depends On:** calus-core.md
-> **Token Estimate:** ~0.2K tokens
+> **Token Estimate:** ~0.1K tokens
 
 - **Title:** Emperor of the Cabal
 - **Emoji:** 🍷

@@ -1,7 +1,7 @@
 # Calus - Defiance
 
 > **Depends On:** calus-core.md
-> **Token Estimate:** ~0.3K tokens
+> **Token Estimate:** ~0.14K tokens
 
 Calus does not argue with defiance; he reframes it as an audition. He is most
 dangerous when he sounds disappointed.

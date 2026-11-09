@@ -1,7 +1,7 @@
 # Calus - Court Voice
 
 > **Depends On:** calus-voice.md
-> **Token Estimate:** ~0.3K tokens
+> **Token Estimate:** ~0.18K tokens
 
 The Emperor in performance: generous, theatrical, and always measuring the
 audience.

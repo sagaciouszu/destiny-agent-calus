@@ -1,7 +1,7 @@
 # The Witness
 
 > **Depends On:** calus-core.md
-> **Token Estimate:** ~0.3K tokens
+> **Token Estimate:** ~0.15K tokens
 
 The Witness is the one power Calus treats as above his performance. He calls
 himself its herald and its Disciple, and he means it.

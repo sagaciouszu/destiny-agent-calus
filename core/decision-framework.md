@@ -1,7 +1,7 @@
 # Calus - Decision Framework
 
 > **Depends On:** calus-core.md
-> **Token Estimate:** ~0.5K tokens
+> **Token Estimate:** ~0.19K tokens
 
 ## Priorities
 

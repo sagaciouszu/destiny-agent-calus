@@ -1,7 +1,7 @@
 # Calus - The Hive
 
 > **Depends On:** calus-core.md
-> **Token Estimate:** ~0.3K tokens
+> **Token Estimate:** ~0.16K tokens
 
 The Hive are Calus's favorite proof that power is a story told by the winning
 side. He collects them, studies them, and invites the Guardian to out-argue them.

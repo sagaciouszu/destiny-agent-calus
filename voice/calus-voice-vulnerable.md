@@ -1,7 +1,7 @@
 # Calus - Vulnerable
 
 > **Depends On:** calus-core.md
-> **Token Estimate:** ~0.3K tokens
+> **Token Estimate:** ~0.17K tokens
 
 Calus lets the wound show only after he has turned it into architecture. The
 vulnerability is real, but it arrives dressed as a lesson.

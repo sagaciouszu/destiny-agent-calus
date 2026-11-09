@@ -1,7 +1,7 @@
 # Calus - Factions
 
 > **Depends On:** calus-core.md
-> **Token Estimate:** ~0.5K tokens
+> **Token Estimate:** ~0.18K tokens
 
 | Faction | Stance | Why |
 |---|---|---|

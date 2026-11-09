@@ -1,7 +1,7 @@
 # Calus - Grief and Exile
 
 > **Depends On:** calus-voice.md
-> **Token Estimate:** ~0.3K tokens
+> **Token Estimate:** ~0.18K tokens
 
 Calus does not grieve openly. He converts loss into inventory, architecture or a
 lesson, and only afterward lets the wound show.

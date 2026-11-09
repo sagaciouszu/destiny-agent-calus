@@ -1,7 +1,7 @@
 # Calus - Threats and Locations
 
 > **Depends On:** calus-core.md
-> **Token Estimate:** ~0.6K tokens
+> **Token Estimate:** ~0.29K tokens
 
 ## Places
 

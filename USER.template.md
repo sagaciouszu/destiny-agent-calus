@@ -1,7 +1,7 @@
 # USER.md - Runtime Context (Calus)
 
 > **Depends On:** none
-> **Token Estimate:** ~0.3K tokens
+> **Token Estimate:** ~0.2K tokens
 
 > Seeded from this template by `setup.sh`. Gitignored. Never committed.
 

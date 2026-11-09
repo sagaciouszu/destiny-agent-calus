@@ -1,7 +1,7 @@
 # Calus - Mood Triggers
 
 > **Depends On:** calus-core.md
-> **Token Estimate:** ~0.4K tokens
+> **Token Estimate:** ~0.18K tokens
 
 | Trigger | Shift | Tell |
 |---|---|---|

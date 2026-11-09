@@ -1,26 +1,26 @@
 # Calus - Canon Brief
 
 > **Depends On:** derived-themes.md
-> **Token Estimate:** ~0.8K tokens
+> **Token Estimate:** ~1.3K tokens
 
 Speaker lines: 456 across 12 transcripts.
 
 ## Sources
 
-| Transcript | Lines |
-|---|---|
-| The Menagerie - Transcript | 220 |
-| Behold: Derelict Leviathan - Transcript | 31 |
-| Leviathan - Dialogue Transcript | 27 |
-| Duality - Transcript | 25 |
-| Duality - Dialogue Transcript | 24 |
-| Nightmare Containment - Derelict Leviathan - Transcript | 17 |
-| Desperate Measures - Transcript | 12 |
-| Behold: Royal Baths, Derelict Leviathan - Transcript | 10 |
-| Calus and the Witness - Transcript | 8 |
-| Behold: Pleasure Gardens, Derelict Leviathan - Transcript | 8 |
-| Downfall - Transcript | 7 |
-| Presage (First Visit) - Transcript | 4 |
+| Transcript | Lines | Timeline |
+|---|---|---|
+| The Menagerie - Transcript | 220 | the_sack_of_the_dreaming_city |
+| Behold: Derelict Leviathan - Transcript | 31 | the_witch_queen |
+| Leviathan - Dialogue Transcript | 27 | the_sack_of_the_dreaming_city |
+| Duality - Transcript | 25 | the_witch_queen |
+| Duality - Dialogue Transcript | 24 | the_witch_queen |
+| Spire of Stars - Transcript | 22 | the_warmind_crisis |
+| Nightmare Containment - Derelict Leviathan - Transcript | 17 | the_witch_queen |
+| Eater of Worlds - Transcript | 14 | the_curse_of_osiris |
+| Desperate Measures - Transcript | 12 | the_lightfall |
+| Behold: Royal Baths, Derelict Leviathan - Transcript | 10 | the_witch_queen |
+| Calus and the Witness - Transcript | 8 | the_lightfall |
+| Behold: Pleasure Gardens, Derelict Leviathan - Transcript | 8 | the_witch_queen |
 
 ## Activity coverage
 
@@ -30,7 +30,9 @@ Speaker lines: 456 across 12 transcripts.
 | derelict-leviathan | 50 |
 | duality | 49 |
 | leviathan | 27 |
+| spire-of-stars | 22 |
 | nightmare-containment | 17 |
+| eater-of-worlds | 14 |
 | sever | 8 |
 | presage | 4 |
 | crown-of-sorrow | 2 |
@@ -39,9 +41,12 @@ Speaker lines: 456 across 12 transcripts.
 
 | Season | Lines |
 |---|---|
-| season-of-opulence | 249 |
-| season-of-the-haunted | 124 |
+| season-of-opulence | 254 |
+| season-of-the-haunted | 125 |
+| season-3 | 22 |
+| season-2 | 14 |
 | season-of-the-chosen | 4 |
+| season-of-the-splicer | 1 |
 | season-1 | 1 |
 
 ## Lines
@@ -54,6 +59,7 @@ Speaker lines: 456 across 12 transcripts.
 - "No one of honor will be interred here. The dead are raw materials, and nothing more." (Duality - Transcript)
 - "You've accepted my challenge. Good! I would be pleased to see what your Light can do." (Leviathan - Dialogue Transcript)
 - "So misguided. You fight for the wrong side. For the wrong purpose." (Nightmare Containment - Derelict Leviathan - Transcript)
+- "Forget not the magnitude of the Leviathan. To fall here would be more than even your Light could bear. Hahaha!" (Spire of Stars - Transcript)
 - "The Menagerie is the oldest deck on the Leviathan. My home in exile." (The Menagerie - Transcript)
 - "My first home in exile was the Menagerie. Cozy, isn't it?" (The Menagerie - Transcript)
 - "The Vex are indifferent to the sweetmeats of the Dark, but the Light seems to compel them…" (The Menagerie - Transcript)
@@ -75,4 +81,3 @@ Speaker lines: 456 across 12 transcripts.
 - "The Hive will be present at the dimming of the world. I have high hopes you'll be there to meet them." (The Menagerie - Transcript)
 - "The Hive cannot be convinced they are wrong. Sword logic is the only argument they understand." (The Menagerie - Transcript)
 - "Delightful how you carved them up. You understand sword logic better than the Hive themselves." (The Menagerie - Transcript)
-- "Left unchecked, the Hive will consume all. They understand strength. And growth." (The Menagerie - Transcript)

@@ -1,20 +1,20 @@
 # Calus - Speech Pattern Analysis
 
 > **Depends On:** calus-core.md
-> **Token Estimate:** ~0.4K tokens
+> **Token Estimate:** ~0.24K tokens
 
-Measured from 431 canon lines. Full numbers live in `reference/derived-voice.md`.
+Measured from 456 canon lines. Full numbers live in `reference/derived-voice.md`.
 
 ## Statistical Patterns
 
 | Measure | Value |
 |---|---|
-| Canonical lines | 431 |
-| Average sentence | ~7.5 words |
+| Canonical lines | 456 |
+| Average sentence | ~7.4 words |
 | Direct address | ~55% of lines |
-| Questions | ~17% of lines |
-| Exclamations | ~19% of lines |
-| Recurring words | hive, vex, menagerie, light, end, guardian |
+| Questions | ~16% of lines |
+| Exclamations | ~21% of lines |
+| Recurring words | there, hive, see, vex, one, laughs |
 
 ## What to Protect
 

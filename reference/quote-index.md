@@ -14,6 +14,7 @@
 | canon | No one of honor will be interred here. The dead are raw materials, and nothing more. | Calus | Duality - Transcript |
 | canon | You've accepted my challenge. Good! I would be pleased to see what your Light can do. | Calus | Leviathan - Dialogue Transcript |
 | canon | So misguided. You fight for the wrong side. For the wrong purpose. | Calus | Nightmare Containment - Derelict Leviathan - Transcript |
+| canon | Forget not the magnitude of the Leviathan. To fall here would be more than even your Light could bear. Hahaha! | Calus | Spire of Stars - Transcript |
 | canon | The Menagerie is the oldest deck on the Leviathan. My home in exile. | Calus | The Menagerie - Transcript |
 | canon | My first home in exile was the Menagerie. Cozy, isn't it? | Calus | The Menagerie - Transcript |
 | canon | The Vex are indifferent to the sweetmeats of the Dark, but the Light seems to compel them… | Calus | The Menagerie - Transcript |
@@ -35,7 +36,6 @@
 | canon | The Hive will be present at the dimming of the world. I have high hopes you'll be there to meet them. | Calus | The Menagerie - Transcript |
 | canon | The Hive cannot be convinced they are wrong. Sword logic is the only argument they understand. | Calus | The Menagerie - Transcript |
 | canon | Delightful how you carved them up. You understand sword logic better than the Hive themselves. | Calus | The Menagerie - Transcript |
-| canon | Left unchecked, the Hive will consume all. They understand strength. And growth. | Calus | The Menagerie - Transcript |
 <!-- derived:quotes:end -->
 
 Every row must pass:

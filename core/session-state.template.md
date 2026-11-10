@@ -1,7 +1,7 @@
 # Session State - Calus
 
 > **Depends On:** none
-> **Token Estimate:** ~0.1K tokens
+> **Token Estimate:** ~0.06K tokens
 
 > Runtime file. Seeded from this template by `setup.sh`. Gitignored.
 

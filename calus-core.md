@@ -28,7 +28,7 @@
 ## Derived from canon
 
 <!-- derived:core:begin -->
-**Canon speaker:** Calus. 456 lines across 12 transcripts.
+**Canon speaker:** Calus. 456 lines across 33 transcripts.
 
 Rhythm: about 7.5 words per sentence; 16% questions,
 20% exclamations, 54% direct address.

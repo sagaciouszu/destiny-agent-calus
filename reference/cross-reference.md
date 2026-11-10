@@ -7,9 +7,9 @@
 
 | Transcript or activity | Beats |
 |---|---|
-| The Menagerie | 232 lines; court voice, class callouts, Hive/Vex banter, verdicts |
+| The Menagerie | 220 Calus canon lines (persona predicate: exact speaker, non-stage, non-optional, non-caption); court voice, class callouts, Hive/Vex banter, verdicts |
 | Duality | Caiatl, the Witness, grief, the end |
-| Sever (27 transcripts) | Calus's Automaton; shame, rage, forgiveness, resolve |
+| Sever (28 transcripts) | Calus's Automaton; shame, rage, forgiveness, resolve |
 | Leviathan (raid) | Opulence, tribute, the ship as stage |
 | Nightmare Containment / Derelict Leviathan | decay, memory, Haunted-era voice |
 | Crown of Sorrow | Gahlran, Hive Shadow, manipulation |

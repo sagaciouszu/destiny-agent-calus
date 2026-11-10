@@ -10,10 +10,10 @@
 |---|---|
 | Canonical lines | 456 |
 | Variant / optional lines | 12 |
-| Transcript sources | 12 |
-| Activities | menagerie (220), derelict-leviathan (50), duality (49), leviathan (27), nightmare-containment (17) |
-| Seasons | season-of-opulence (249), season-of-the-haunted (124), season-of-the-chosen (4), season-1 (1) |
-| Source tiers | ishtar_main (271), ishtar_web (147), cutscene (1) |
+| Transcript sources | 33 |
+| Activities | menagerie (220), derelict-leviathan (50), duality (49), leviathan (27), spire-of-stars (22) |
+| Seasons | season-of-opulence (254), season-of-the-haunted (125), season-3 (22), season-2 (14), season-of-the-chosen (4) |
+| Source tiers | ishtar_main (271), ishtar_web (147), destinypedia (36), cutscene (2) |
 | Average sentence | 7.5 words |
 | Contractions | 19% of lines |
 | Questions | 16% of lines |

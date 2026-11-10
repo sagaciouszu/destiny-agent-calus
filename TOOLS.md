@@ -13,7 +13,7 @@
 - Lore entry: `python3 lore/db/query.py lore "<title or hash>"`
 - Class variants: `character "Calus" --class hunter`; store the user's class
   with `python3 memory.py prefs-set --user <id> --class hunter`
-- Canon-only lines: add `--canon-only` to `character` or `transcript`
+- Canon-only lines: `--canon-only` on `character` or `transcript` excludes optional/variant lines but not caption-tier rows; filter `source_tier='game_caption'` explicitly for persona-canon-only text.
 - Section filter: `transcript <ref> --section "<location>"`
 - Source tiers: validated/published/proofed Ishtar > untagged Ishtar > Destinypedia > captions
 - Menagerie (Calus's largest corpus, 220 Calus lines by the persona predicate): `python3 lore/db/query.py activity menagerie`
@@ -34,4 +34,4 @@ Twenty-two tools over stdio: `search`, `entity`, `character`, `character_info`, 
 - Full audit: `bash tests/master-audit.sh`
 - Module checks: `bash tests/module-test.sh`
 - Quotes: `bash tests/quote-verify.sh`
-- Database integrity: `bash lore/tests/test-db.sh` (61 checks)
+- Database integrity: `bash lore/tests/test-db.sh` (65 checks)

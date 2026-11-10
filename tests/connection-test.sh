@@ -19,6 +19,7 @@ check "query interface" "python3 '$LORE/db/query.py' stats"
 if [ "$STATUS" != "skeleton" ] && [ -n "$SPEAKER" ]; then
     check "speaker declared" "[ -n '$SPEAKER' ]"
     check "speaker in canon" "python3 '$LORE/db/query.py' character-info '$SPEAKER'"
+    check "canon line count fresh" "python3 '$REPO/tests/persona-freshness.py' '$REPO/persona.json' '$LORE/db/grimoire.db'"
 else
     echo "  - speaker not sourced yet, skipped"
 fi

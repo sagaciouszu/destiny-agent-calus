@@ -1,7 +1,7 @@
 # Calus - Tools
 
 > **Depends On:** AGENTS.md
-> **Token Estimate:** ~243 tokens
+> **Token Estimate:** ~538 tokens
 
 ## Query CLI
 
@@ -10,15 +10,24 @@
 - Character lines: `python3 lore/db/query.py character "Calus" --limit 20`
 - Quote check: `python3 lore/db/query.py verify "<line>" --speaker "Calus" --exact`
 - Stats: `python3 lore/db/query.py stats`
-- Lore entry: `python3 lore/db/query.py lore "<title or hash>"`
+
+## Discovery by activity, season and event
+
+- Activity: `search "<term>" --activity menagerie` or `activity last-wish`
+- Calus's largest corpus is the Menagerie: `activity menagerie`
+- Season: `search "<term>" --season 17` / `--season haunted`
+- Event: `search "<term>" --event "The Dawning"` or `event festival-of-the-lost`
+- Expansion: `search "<term>" --expansion "The Final Shape"`
+- Coverage and gaps: `coverage`; browsing: `list activities|seasons|events|lore`
+- Manifest lore: `lore "<title or hash>"`
+- Canon-only: `--canon-only` on `character` or `transcript` excludes optional/variant
+  lines but not caption-tier rows; filter `source_tier='game_caption'` explicitly
+  for persona-canon-only text. `--section` filters by location.
 - Class variants: `character "Calus" --class hunter`; store the user's class
-  with `python3 memory.py prefs-set --user <id> --class hunter`
-- Canon-only lines: `--canon-only` on `character` or `transcript` excludes optional/variant lines but not caption-tier rows; filter `source_tier='game_caption'` explicitly for persona-canon-only text.
-- Section filter: `transcript <ref> --section "<location>"`
-- Source tiers: validated/published/proofed Ishtar > untagged Ishtar > Destinypedia > captions
-- Menagerie (Calus's largest corpus, 220 Calus lines by the persona predicate): `python3 lore/db/query.py activity menagerie`
-- Season filter: `python3 lore/db/query.py search "true power" --season 7`
-- Activity filter: `python3 lore/db/query.py search "sword logic" --activity menagerie`
+  with `python3 memory.py prefs-set --user <id> --class hunter`. Source tiers: validated/published/proofed Ishtar >
+  untagged Ishtar > Destinypedia > captions.
+- Classification confidence is `explicit`, `derived`, `manual` or `unknown`.
+  Treat `unknown` as unknown; never present a guessed season as fact.
 
 - Source tiers: `--tier <tier>` includes only that tier and
   `--exclude-tier <tier>` excludes it (for example
@@ -40,4 +49,5 @@ Twenty-two tools over stdio: `search`, `entity`, `character`, `character_info`, 
 - Full audit: `bash tests/master-audit.sh`
 - Module checks: `bash tests/module-test.sh`
 - Quotes: `bash tests/quote-verify.sh`
-- Database integrity: `bash lore/tests/test-db.sh` (65 checks)
+- Database integrity: `bash lore/tests/test-db.sh` (67 checks)
+- Query interface: `bash lore/tests/query-interface-test.sh` (97 checks)

@@ -1,7 +1,7 @@
 # User Memory - Calus
 
 > **Depends On:** none
-> **Token Estimate:** ~0.07K tokens
+> **Token Estimate:** ~66 tokens
 
 > Runtime file. Seeded from this template by `setup.sh`. Gitignored.
 > One section per user; never merge users.

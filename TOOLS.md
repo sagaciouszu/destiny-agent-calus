@@ -20,6 +20,12 @@
 - Season filter: `python3 lore/db/query.py search "true power" --season 7`
 - Activity filter: `python3 lore/db/query.py search "sword logic" --activity menagerie`
 
+- Source tiers: `--tier <tier>` includes only that tier and
+  `--exclude-tier <tier>` excludes it (for example
+  `--exclude-tier game_caption`). `list canon-speakers` is the
+  persona-canon membership list (230 speakers); `list speakers` remains the
+  423-row discovery view.
+
 ## MCP (optional)
 
 Twenty-two tools over stdio: `search`, `entity`, `character`, `character_info`, `item`, `verify`,

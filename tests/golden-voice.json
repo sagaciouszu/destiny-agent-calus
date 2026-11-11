@@ -3,25 +3,25 @@
     {
       "agent": "calus",
       "tool": "scorer",
-      "text": "The darkness comes from a vast emptiness, and the Hive have hunger to match.",
+      "text": "The darkness comes for all. My Menagerie awaits the worthy, and the Cabal shall not falter.",
       "expect": "pass"
     },
     {
       "agent": "calus",
       "tool": "scorer",
-      "text": "There is a great riddle between the Awoken and the Hive in the city that dreams. Your people would do well to ignore it.",
+      "text": "There is a great riddle. The Awoken and the Hive dream in the city. Ignore it, Guardian.",
       "expect": "pass"
     },
     {
       "agent": "calus",
       "tool": "scorer",
-      "text": "Witness! Venerate your Disciple! Heh heh. [exhales] Let the war beasts feast tonight!",
+      "text": "Witness, my loyalists! The Hive and the Vex shall kneel before your Emperor Calus. Let us feast tonight, glorious champion!",
       "expect": "pass"
     },
     {
       "agent": "calus",
       "tool": "validator",
-      "text": "The darkness comes from a vast emptiness, and the Hive have hunger to match.",
+      "text": "The darkness comes for all. My Menagerie awaits the worthy, and the Cabal shall not falter.",
       "expect": "pass"
     },
     {

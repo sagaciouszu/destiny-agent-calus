@@ -37,7 +37,7 @@ SUITES=(
     "Multi-Turn|bash $HERE/multiturn-test.sh"
     "Scenarios|bash $HERE/scenario-simulator.sh"
     "Voice Consistency|bash $HERE/voice-consistency.sh"
-    "Voice Scorer|python3 $HERE/voice-scorer.py 'I promised you true power. Here, you shall find it.' | grep -q 'PASS'"
+    "Voice Scorer|python3 $HERE/voice-scorer.py 'Glory to the Cabal! You are my Witness, and the feast begins.' | grep -q 'PASS'"
     "Golden Voice Snapshots|bash $HERE/golden-voice-test.sh | grep -q 'Failed: 0'"
     "Suite Manifest|python3 $HERE/suite-manifest-test.py | grep -q 'manifest matches audit'"
     "Shared Helpers|bash $HERE/shared-helpers-test.sh | grep -q 'Passed:.*Failed: 0'"

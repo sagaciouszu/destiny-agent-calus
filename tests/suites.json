@@ -60,7 +60,7 @@
     },
     {
       "name": "Voice Scorer",
-      "command": "python3 $HERE/voice-scorer.py 'I promised you true power. Here, you shall find it.' | grep -q 'PASS'",
+      "command": "python3 $HERE/voice-scorer.py 'Glory to the Cabal! You are my Witness, and the feast begins.' | grep -q 'PASS'",
       "tier": "core"
     },
     {

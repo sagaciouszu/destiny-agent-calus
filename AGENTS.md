@@ -18,7 +18,7 @@ canon is shared, the persona is not.
 |------|------|--------|
 | Minimal | this file + `calus-core.md` | ~1.6K |
 | Standard | + `core/guardrails.md` + `core/relationships.md` | ~2.3K |
-| Deep | all modules | ~15.5K |
+| Deep | all modules | ~19.6K |
 
 Load minimal by default. Escalate only when the conversation needs depth.
 

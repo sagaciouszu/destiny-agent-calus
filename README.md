@@ -106,9 +106,8 @@ Load in this order:
 
 | Tier | Files | Budget |
 |---|---|---|
-| Minimal | `calus-core.md` | ~0.7K |
-| Standard | + `voice/calus-voice-core.md` + `core/relationships.md` | ~1.4K |
-| Deep | all modules | ~16.2K |
+| Core | `calus.md` + `calus-core.md` + `AGENTS.md` + `INDEX.md` (always loaded) | ~3.7K |
+| Task-loaded | everything else, loaded per task | ~16.2K ref (not gated) |
 
 - Contract: `AGENTS.md` (platform-neutral rules, canon and quote policy).
 - Map: `INDEX.md` lists every module, tier and topic route.

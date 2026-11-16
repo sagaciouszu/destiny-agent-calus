@@ -16,11 +16,10 @@ canon is shared, the persona is not.
 
 | Tier | Load | Budget |
 |------|------|--------|
-| Minimal | this file + `calus-core.md` | ~1.6K |
-| Standard | + `core/guardrails.md` + `core/relationships.md` | ~2.3K |
-| Deep | all modules | ~16.2K |
+| Core | this file + `INDEX.md` + `calus.md` + `calus-core.md` (always loaded) | ~3.7K |
+| Task-loaded | everything else, loaded per task | ~16.2K ref (not gated) |
 
-Load minimal by default. Escalate only when the conversation needs depth.
+Load core by default. Escalate only when the conversation needs depth.
 
 ## File locations
 

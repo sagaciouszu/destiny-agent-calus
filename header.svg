@@ -63,28 +63,9 @@
     <line x1="900" y1="0" x2="900" y2="320"/>
   </g>
 
-  <!-- Sun-crown sigil (right): ring, twelve rays, chalice diamond -->
-  <g transform="translate(980,160)" opacity="0.85" fill="none" stroke="#d4af37">
-    <circle r="98" stroke-width="1.2" opacity="0.45"/>
-    <circle r="82" stroke-width="0.7" opacity="0.3"/>
-    <g stroke-width="1.6" opacity="0.75">
-      <line x1="0" y1="-98" x2="0" y2="-112"/>
-      <line x1="49" y1="-85" x2="56" y2="-97"/>
-      <line x1="85" y1="-49" x2="97" y2="-56"/>
-      <line x1="98" y1="0" x2="112" y2="0"/>
-      <line x1="85" y1="49" x2="97" y2="56"/>
-      <line x1="49" y1="85" x2="56" y2="97"/>
-      <line x1="0" y1="98" x2="0" y2="112"/>
-      <line x1="-49" y1="85" x2="-56" y2="97"/>
-      <line x1="-85" y1="49" x2="-97" y2="56"/>
-      <line x1="-98" y1="0" x2="-112" y2="0"/>
-      <line x1="-85" y1="-49" x2="-97" y2="-56"/>
-      <line x1="-49" y1="-85" x2="-56" y2="-97"/>
-    </g>
-    <path d="M -34 -20 L 34 -20 L 18 18 L 0 52 L -18 18 Z" stroke-width="1.4" opacity="0.85"/>
-    <circle r="4" fill="#e9c86a" stroke="none" opacity="0.9"/>
-    <circle cx="-58" cy="-58" r="2" fill="#f0abfc" stroke="none" opacity="0.7"/>
-    <circle cx="58" cy="58" r="2" fill="#f0abfc" stroke="none" opacity="0.7"/>
+  <!-- Cabal Gold icon (right) - from svgrepo Destiny Game Icons (CC0) -->
+  <g transform="translate(980,160) scale(4.6) translate(-15, -16)" opacity="0.85" fill="#d4af37">
+<path d="M25.728 10.112l-10.72 5.152-10.72-5.152 10.72-6.176zM4.096 10.464l9.824 6.72 0.896 11.808-10.72-6.176v-12.352zM25.888 10.464v12.352l-10.688 6.176 0.896-11.808z"></path>
   </g>
 
   <!-- Reticle -->
